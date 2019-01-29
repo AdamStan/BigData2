@@ -1,1 +1,10 @@
-Bedzie tu
+a = LOAD ‘ids_data’ using org.apache.hive.hcatalog.pig.HCatLoader();
+commitments = FILTER a BY indicatorname == ‘Commitments official creditors (COM current US$)’;
+grace_period  = FILTER a BY indicatorname ==  ‘Average grace period on new external debt commitments (years)’;
+concessional_debt = FILTER a BY indicatorname  == ‘Concessional debt (% of total external debt)’;
+debt_stock_reduciton =  FILTER a BY indicatorname  == ‘Debt stock reduction (current US$)’;
+external_debt_total = FILTER a BY indicatorname  == ’External debt stocks total (DOD current US$)’;
+interest_payments = FILTER a BY indicatorname  == ‘Interest payments on external debt total (INT current US$)’;
+short_term_debt = FILTER a BY indicatorname  == ‘Short-term debt (% of total external debt)’;
+commitments_average = FOREACH commitments GENERATE (countryname, countrycode, indicatorname, ((y2006+y2007+y2008+y2009+y2010+y2011+y2012+y2013+y2014+y2015)/10) );
+STORE commitments_average INTO ‘wykres1’;
