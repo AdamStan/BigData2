@@ -1,0 +1,49 @@
+BX.GRT.TECH.CD.DT,Economic Policy & Debt: Balance of payments: Reserves & other items,Technical cooperation grants (current US$),
+"Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial
+skills or of technology for the purpose of building up general national capacity without reference to any specific investment projects;
+and investment-related technical cooperation grants, which are provided to strengthen the capacity to execute specific investment projects.
+Data are in current U.S. dollars."
+
+DT.COM.OFFT.CD,Economic Policy & Debt: External debt: Commitments,Commitments official creditors (COM current US$),
+"Commitments are the amount of long-term loans for which contracts were signed in the year specified. Debt from official creditors
+includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from
+international organization include loans and credits from the World Bank, regional development banks, and other multilateral and
+intergovernmental agencies. Excluded are loans from funds administered by an international organization on behalf of a single donor
+government; these are classified as loans from governments. Government loans include loans from governments and their agencies
+(including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Long-term external
+debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents
+of an economy and repayable in currency, goods, or services. Data are in current U.S. dollars."
+
+DT.DOD.ALLC.ZS,Economic Policy & Debt: External debt: Debt ratios & other items,Concessional debt (% of total external debt),
+Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 25 percent or more.
+
+DT.DOD.DECT.CD,Economic Policy & Debt: External debt: Debt outstanding,External debt stocks total (DOD current US$),
+"Total external debt is debt owed to nonresidents repayable in currency, goods, or services. It is the sum of public,
+publicly guaranteed, and private nonguaranteed long-term debt, short-term debt, and use of IMF credit. Data are in current U.S. dollars."
+
+DT.DOD.DSTC.ZS,Economic Policy & Debt: External debt: Debt ratios & other items,Short-term debt (% of total external debt),
+"Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt.
+Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public,
+publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. "
+
+DT.DSF.DPPG.CD,"Economic Policy & Debt: External debt: Arrears, reschedulings, etc.",Debt stock reduction (current US$),
+"Debt stock reductions show the amount that has been netted out of the stock of debt using debt conversion schemes such as buybacks and
+equity swaps or the discounted value of long-term bonds that were issued in exchange for outstanding debt. It includes the effect of any
+financial operation that will reduce the debt stock other than debt stock restructuring, repayment of principal and debt forgiven.
+In particular, debt stock reduction will include the face value of debt bought back, the face value of debt swapped for equity (or
+""nature"" or ""development""), any face value reduction that might result as the consequence of a bond exchange, and any face value
+reduction resulting from an exchange of debt for discount bonds. Data are in current U.S. dollars."
+
+DT.GPA.DPPG,Economic Policy & Debt: External debt: Terms,Average grace period on new external debt commitments (years),
+"Grace period is the period from the date of signature of the loan or the issue of the financial instrument to the first
+repayment of principal. To obtain the average, the grace periods for all public and publicly guaranteed loans have been weighted
+by the amounts of the loans. Public debt is an external obligation of a public debtor, including the national government, a
+political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of
+a private debtor that is guaranteed for repayment by a public entity."
+
+DT.INT.DECT.CD,Economic Policy & Debt: External debt: Interest,Interest payments on external debt total (INT current US$),
+"Interest payments are actual amounts of interest paid by the borrower in currency, goods, or services in the year specified. This
+item includes interest paid on long-term debt, IMF charges, and interest paid on short-term debt. Long-term external debt is defined
+as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy
+and repayable in currency, goods, or services. Short-term external debt is defined as debt that has an original maturity of one year
+or less. Available data permit no distinction between public and private nonguaranteed short-term debt. Data are in current U.S. dollars."

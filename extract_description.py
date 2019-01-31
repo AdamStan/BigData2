@@ -1,8 +1,8 @@
 import csv
 
-old_file = 'IDSData.csv'
+old_file = 'IDSSeries.csv'
 
-new_file = 'IDS/data.csv'
+new_file = 'IDS/data_desc.csv'
 
 i = 0
 
@@ -35,6 +35,8 @@ with open(old_file, 'r', newline='') as csv_file_read:
         string = row[2].replace(',',' ')
         string = string.replace("  "," ")
 
+        # buff_row.append(string)
+
         if string in add_to_buff:
             buff_row.append(string)
         else:
@@ -42,11 +44,11 @@ with open(old_file, 'r', newline='') as csv_file_read:
 
         buff_row.append(row[3])
 
-        for i in range(40, 50):
-            if row[i]:
-                buff_row.append(row[i])
-            else:
-                buff_row.append(0)
+        # for i in range(40, 50):
+        #     if row[i]:
+        #         buff_row.append(row[i])
+        #     else:
+        #         buff_row.append(0)
 
         content.append(buff_row)
 
